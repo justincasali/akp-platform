@@ -26,7 +26,7 @@ metadata:
     app.kubernetes.io/name: guestbook
     app.kubernetes.io/managed-by: Helm
 spec:
-  replicas: 3
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
